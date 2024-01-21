@@ -1,0 +1,1 @@
+print(string.rep("Hello World",3,1))

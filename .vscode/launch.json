@@ -1,0 +1,23 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "LuaHelper-Debug",
+			"request": "launch",
+			"name": "LuaHelper-DebugFile",
+			"description": "独立文件调试模式",
+			"luaPath": "",
+			"packagePath": [],
+			"luaFileExtension": "",
+			"connectionPort": 8818,
+			"stopOnEntry": true,
+			"useCHook": true
+		},
+		{
+			"type": "lua",
+			"request": "launch",
+			"name": "Launch",
+			"program": "${workspaceFolder}/src/main.lua"
+		}
+	]
+}
